@@ -1,0 +1,192 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.left-right-div {
+  height: 80%;
+  width: 70%;
+  margin: 20px;
+  position: relative;
+  border-radius: 14px;
+display:flex;
+flex-direction:row;
+justify-content: space-between;
+border: 1px solid #ddd;
+}
+
+.back {
+}
+
+.continue {
+}
+
+.m-l {
+  margin-left: -13px;
+  margin-right: 0px;
+  float: left;
+}
+.m-r {
+  margin-left: 86px;
+  margin-right: 0px;
+  float: right;
+}
+.pro-img{
+  display: block;
+}
+.header-top{
+  background: #4C67E6;
+    padding: 10px;
+    width: 100%;
+}
+.header-top span{
+  color: #fff;
+}
+.header-top span a{
+  color: #23e6b7;
+}
+.header-logo{
+  width: 100%;
+  display: inline-block;
+  max-width: 1200px;
+  padding: 10px 0;
+
+}
+.header-logo .logo{
+  display: inline-block;
+  float: left;
+}
+.header-logo .menu{
+  display: inline-block;
+  float: right;
+  position: relative;
+  top: 16px;
+}
+.menu ul li{
+  list-style: none;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.figma-footer-form {
+  border: 2px solid #aebaf4;
+  border-radius: 22px;
+  width: 720px;
+  background-color: #EEEEEE;
+  padding: 20px 0;
+  margin: 0 auto;
+  position: relative;
+  top: 70px;
+}
+.figma-footer-form iframe{
+  border-width: 0px;
+}
+.figma-footer-form h2{
+  width: 100%;
+  margin: 0;
+  color: #272D4E;
+  font-family: "Open Sans",Sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+}
+.figma-footer-form p{
+  width: 100%;
+  color: #94A2B3;
+  font-family: "Open Sans",Sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+}
+footer{
+  width: 100%;
+  position: relative;
+}
+.footer-main .col-3{
+  width: 25%;
+  display: inline-block;
+}
+.footer-main h3{
+  width: 100%;
+  text-align: left;
+  margin: 0 0 10px;
+  color: #FFFFFF;
+  font-family: "Roboto",Sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+.footer-main{
+  background-color: #4C67E6;
+  padding: 80px 0 80px;
+}
+.footer-main .container{
+  max-width: 1200px;
+  width: 1200px;
+}
+.footer-main h2{
+  width: 100%;
+  text-align: center;
+}
+.footer-main ul li{
+  list-style: none;
+  margin-right: 20px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.footer-main ul li a{
+  font-family: "Roboto",Sans-serif;
+  font-weight: 400;
+  margin-bottom: 10px;
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+}
+.footer-main ul li a:hover{
+  color: #6EFFDC;
+}
+.figma-footer-bg {
+  position: absolute;
+  background: url(https://assets.sizeguarantee.com/images/figma-footer-bg.png) no-repeat;
+  display: inline-block;
+  top: 477px;
+  left: 0px;
+  width: 100%;
+  height: 235px;
+  background-size: 100% 100%;
+}
+.footer-copy{
+  padding: 20px 0;
+  text-align: center;
+}
+.footer-copy p{
+  color: #272D4E;
+  font-family: "Open Sans",Sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.sc-bdfBQB{
+  display: block;
+}
+.sc-gsTEea{
+  height: 38%;
+  width: 100%;
+  border-radius: 6px 0 0 6px;
+}
+
+.sc-dlfnuX{
+  display: block;
+    width: 100%;
+    height: 45%;
+}
